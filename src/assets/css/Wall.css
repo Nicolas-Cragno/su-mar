@@ -1,0 +1,19 @@
+.wall{
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
+    width: 100%;
+    */
+}
+
+.wall-box-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vh;
+    color: white;
+}
+

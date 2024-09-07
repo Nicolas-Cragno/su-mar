@@ -1,0 +1,36 @@
+/*
+*/
+.cardexample{
+    margin: 1vh;
+}
+
+.cardexample-box1{
+    margin-bottom: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardexample-box2{
+    margin: 1vh;
+    display: block;
+    justify-self: left;
+    align-items: center;
+}
+
+.cardexample-img{
+    width: 100%;
+    height: 35vh;
+    background-color: whitesmoke;
+    object-fit: cover; /* necesario para que la img no se rompa al no coincidir tamaño con la card*/
+}
+
+
+.cardexample-txt{
+    color: black;
+    text-transform: uppercase;
+}
+
+.cardexample-txt2{
+    font-style: italic;
+}

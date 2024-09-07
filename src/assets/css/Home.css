@@ -1,0 +1,16 @@
+.home-page{
+    width: 100%;
+}
+
+.home-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.home-info{
+    
+    background-color: black;
+    color: white;
+}

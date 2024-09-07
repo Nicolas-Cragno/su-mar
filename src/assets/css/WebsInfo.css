@@ -1,0 +1,15 @@
+.websinfo{
+    /*
+    background-image: url('../images/background-example.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
+    display: flex;
+    justify-content: right;
+}
+    
+.logo-img{ 
+    width: 4vh;
+    margin: 0.8vh;
+    margin-right: 3vh;
+}

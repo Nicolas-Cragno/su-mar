@@ -1,0 +1,12 @@
+.feed{
+    background-image: url('../images/background-example.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    transition-duration: 1.5s; /* duración de la aparición del Wall.js*/
+}
+
+.feed:hover{
+    height: 75vh; /* achicamiento para aparición del Wall.js*/
+}
