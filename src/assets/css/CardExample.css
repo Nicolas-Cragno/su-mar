@@ -20,7 +20,7 @@
 
 .cardexample-img{
     width: 100%;
-    height: 35vh;
+    height: 65vh;
     background-color: whitesmoke;
     object-fit: cover; /* necesario para que la img no se rompa al no coincidir tamaño con la card*/
 }

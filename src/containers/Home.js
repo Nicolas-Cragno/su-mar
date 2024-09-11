@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Feed from '../components/Feed';
 import Wall from '../components/Wall';
 import Jobs from '../components/Jobs';
-import Contact from '../components/Contact';
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       <Feed></Feed>
       <Wall></Wall>
       <Jobs></Jobs>
-      <Contact></Contact>
     </div>
   )
 }

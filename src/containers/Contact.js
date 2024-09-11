@@ -3,16 +3,19 @@ import '../assets/css/Contact.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Img from '../assets/images/logoPrincipal.png';
-import Wpp from '../assets/images/LogoWppWhite.png';
-import Mail from '../assets/images/LogoMsgWhite.png';
+import ContactForm from '../compounds/ContactForm';
+import Wpp from '../assets/images/LogoWppBlack.png';
+import Mail from '../assets/images/LogoMsgBlack.png';
 
 export default function Contact() {
   return (
     <div className='contact'>
       <Container>
         <Row>
+            {/*
+             */}
             <Col md={6} className='contact-box'>
-                <img src={Img} className='img-logo'></img>
+                <ContactForm></ContactForm>
             </Col>
             <Col md={6} className='contact-box' >
                 <Row className='contact-info'>
@@ -33,6 +36,9 @@ export default function Contact() {
                     </Col>
                     <Col xs={12}>
                             <h5 className='contact-txt1'>Espero saber de ti pronto.</h5>
+                    </Col>
+                    <Col xs={12} className='contact-box'>
+                        <img src={Img} className='img-logo'></img>
                     </Col>
                 </Row>
             </Col>

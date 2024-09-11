@@ -6,11 +6,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
 }
 
 .home-info{
-    
     background-color: black;
     color: white;
 }

@@ -1,6 +1,7 @@
 .navbar{
     width: 100%;
     height: 10vh;
+    z-index: 99;
 }
 
 .navbar-ul{
@@ -19,10 +20,27 @@
     justify-content: right;
     align-items: center;
     height: 8vh; /*igualado con el tamaño del img del logo de inicio*/
+    @media screen and (max-width:1000px) { /* se bloquea y queda activo solo el navbar center*/
+        display: none;
+    }
 }
 .navbar-left{
     display: flex;
     justify-content: left;
+    @media screen and (max-width:1000px) { /* se bloquea y queda activo solo el navbar center*/
+        display: none;
+    }
+}
+
+.navbar-center{  /* solo aparece cunado se bloquean los navbar right y left */
+    display: none;
+    @media screen and (max-width:1000px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+        font-weight: bold;
+    }
 }
     
 .logo-principal{
@@ -34,6 +52,9 @@
 .logo-principal-txt{
     margin-left: 2vh;
     color: white;
+    @media screen and (max-width: 1200px) {
+        display: none;
+    }
 }
 
 .link{
@@ -50,4 +71,17 @@
 .navbar-li{
     padding-left: 3.5vh;
     font-size: 3.5vh; 
+    @media screen and (max-width:1200px) {
+        font-size: 3vh;
+    }
+
+    @media screen and (max-width:1000px) {
+        padding-left: 0 !important;
+        padding: 2vh;
+        font-size: 2vh;
+    }
+
+    @media screen and (max-width:700px){
+        font-size: 1.5vh;
+    }
 }

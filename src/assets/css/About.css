@@ -1,0 +1,50 @@
+.about-page{
+    width: 100%;
+    padding-top: 10vh;
+
+}
+
+/*
+.about-left{
+    
+}
+*/
+
+.about-img{
+    object-fit: cover;
+    width: 100%;
+    height: 85vh;
+}
+
+.about-right{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.about-box{
+    display: flex;
+    justify-content: center;
+}
+
+.about-txt2{
+    width: 85%;
+    height: 5vh;
+    font-style: italic;
+    margin: 0.5vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+
+.about-txt2:hover{
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
