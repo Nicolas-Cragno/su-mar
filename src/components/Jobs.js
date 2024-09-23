@@ -33,7 +33,7 @@ export default function Jobs() {
           ></CardExample>
         </Carousel.Item>
       </Carousel>
-      {/*
+      {/* Es el formato original que el cliente (mariana) hizo para esta parte, se opto por carousel finalmente ↑↑
       <Container >
           <Row>
               <Col md={6}>

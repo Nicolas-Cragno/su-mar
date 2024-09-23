@@ -1,0 +1,37 @@
+.menu-bar{
+    background-color: black;
+    height: 100%;
+}
+
+.menu-bar-item{
+    display: flex;
+    justify-content: center;
+
+}
+
+.itemList{
+    background-color: grey;
+    border-radius: 5rem;
+    width: 35vh;
+    margin: 2vh;
+}
+
+#item1{
+    display: none;
+}
+
+#item2{
+    display: none;
+}
+
+#item3{
+    display: none;
+}
+
+#item4{
+    display: none;
+}
+
+#item5{
+    display: none;
+}

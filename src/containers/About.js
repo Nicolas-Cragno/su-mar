@@ -6,13 +6,13 @@ import Img from '../assets/images/maxi-trabajando.png';
 export default function About() {
   return (
     <div className='about-page'>
-        <Container>
-          <Row>
+    <Container>
+    <Row>
             <Col md={6} className='about-left'>
               <img src={Img} className='about-img'></img>
             </Col>
             <Col md={6} className='about-right'>
-              <h1 className='about-title centrado'>¿ Quien soy ?</h1><hr/>
+              <h1 className='about-title centrado'>Quien soy</h1><hr/>
               <h6 className='about-txt-principal centrado'>
                 Mi nombre es Leonardo, más conocido como Leo. <br/>
                 Soy una persona común la cual la vida le hizo ser grande 
@@ -44,9 +44,9 @@ export default function About() {
               pero la experiencia y la capacidad de resolverlos nos permiten avanzar 
               un paso mas. 
               </h6>
-            </Col>
-          </Row>
-        </Container>
-    </div>
-  )
+              </Col>
+              </Row>
+              </Container>
+              </div>
+            )
 }

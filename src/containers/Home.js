@@ -1,6 +1,5 @@
 import React from 'react';
 import '../assets/css/Home.css';
-import { Container, Row, Col } from 'react-bootstrap';
 import Feed from '../components/Feed';
 import Wall from '../components/Wall';
 import Jobs from '../components/Jobs';
