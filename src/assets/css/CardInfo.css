@@ -1,40 +1,38 @@
 /*
 */
-.cardexample{
+.cardinfo{
     padding: 5vh;
     height: 100%;
 }
 
-.cardexample-box1{
+.cardinfo-box1{
     margin-bottom: 1vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cardexample-box2{
+.cardinfo-box2{
     margin: 1vh;
     display: block;
     justify-self: left;
     align-items: center;
 }
 
-.cardexample-img{
-    /*
+.cardinfo-img{
     border-top-right-radius: 20%;
-    */
     width: 100%;
-    height: 65vh;
+    height: 35vh;
     background-color: #17202a;
     object-fit: cover; /* necesario para que la img no se rompa al no coincidir tamaño con la card*/
 }
 
 
-.cardexample-txt{
+.cardinfo-txt{
     color: black;
     text-transform: uppercase;
 }
 
-.cardexample-txt2{
+.cardinfo-txt2{
     font-style: italic;
 }

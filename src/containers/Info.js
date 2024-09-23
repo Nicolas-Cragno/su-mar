@@ -15,43 +15,5 @@ export default function Info() {
     <div className='info-page'>
       <Menu></Menu>
     </div>
-    /*
-    <div className='info-page'>
-      <Container>
-        <Row>
-          <Col xs={12}>
-            <CardExample
-            img={ImgCableado}
-            txt={'Cableado de casa e instalaciones eléctricas'}
-            ></CardExample>
-          </Col>
-          <Col md={6}>
-            <CardExample
-            img={ImgPintura}
-            txt={'Pintura de interiores/exteriores y empapelado'}
-            ></CardExample>
-          </Col>
-          <Col md={6}>
-            <CardExample
-            img={ImgAlbanileria}
-            txt={'Albañilería: reconstrucciones y extensiones'}
-            ></CardExample>
-          </Col>
-          <Col md={6}>
-            <CardExample
-            img={ImgPlomeria}
-            txt={'Reparación y cambios de sistemas de plomería'}
-            ></CardExample>
-          </Col>
-          <Col md={6}>
-            <CardExample
-            img={ImgHogar}
-            txt={'Jardinería, reparaciones del hogar, entre otros'}
-            ></CardExample>
-          </Col>
-        </Row>
-      </Container>
-    </div>
-    */
   )
 }

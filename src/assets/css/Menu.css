@@ -1,12 +1,18 @@
 .menu-bar{
-    background-color: black;
-    height: 100%;
+    background-color: #fadbd8;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+    height: 80vh;
+    padding-bottom: 4vh;
 }
 
 .menu-bar-item{
     display: flex;
     justify-content: center;
+}
 
+.item-title{
+    padding: 4vh;
 }
 
 .itemList{
@@ -14,6 +20,15 @@
     border-radius: 5rem;
     width: 35vh;
     margin: 2vh;
+}
+
+.menu-item{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: #fdedec;
 }
 
 #item1{

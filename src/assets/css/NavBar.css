@@ -45,13 +45,13 @@
     
 .logo-principal{
     width: 8vh;
-    background-color: white;
+    background-color: #eaecee;
     border-radius: 50%;
 }
 
 .logo-principal-txt{
     margin-left: 2vh;
-    color: white;
+    color: #eaecee;
     @media screen and (max-width: 1200px) {
         display: none;
     }
@@ -65,7 +65,7 @@
 }
 
 .link:hover{
-    color: white;
+    color: #eaecee;
 }
 
 .navbar-li{
