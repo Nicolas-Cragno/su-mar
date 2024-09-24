@@ -1,9 +1,13 @@
 .menu-bar{
-    background-color: #fadbd8;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
-    height: 80vh;
+    border-style: solid;
+    border-right: none;
+    border-width: 0.5px;
+    border-color: #b3b6b7 ;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    height: 85vh;
     padding-bottom: 4vh;
+    background-color: #e5e8e8;    
 }
 
 .menu-bar-item{
@@ -16,19 +20,29 @@
 }
 
 .itemList{
-    background-color: grey;
-    border-radius: 5rem;
+    border-style: solid;
+    border-right: none;
+    border-width: 0.5px;
+    border-color: #b3b6b7 ;
+    border-radius: 3rem;
     width: 35vh;
     margin: 2vh;
+}
+
+.itemList:hover{
+    color: #c0392b ;
 }
 
 .menu-item{
     display: flex;
     justify-content: center;
-    height: 80vh;
-    border-top-right-radius: 10%;
-    border-bottom-right-radius: 10%;
-    background-color: #fdedec;
+    height: 85vh;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    border-style: solid;
+    border-left: none;
+    border-width: 0.5px;
+    border-color: #b3b6b7 ;
 }
 
 #item1{

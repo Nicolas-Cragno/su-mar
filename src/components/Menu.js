@@ -68,7 +68,7 @@ export default function Menu() {
                 <Col md={4} className="menu-bar">
                     <Row>
                         <Col xs={12} className='menu-bar-item item-title'>
-                            <h2>¿ Que ofrecemos ?</h2>
+                            <h2>Nuestros servicios</h2>
                         </Col>
                         <Col xs={12} className='menu-bar-item'>
                             <button onClick={() => {mostrar(1)}} className='itemList'>

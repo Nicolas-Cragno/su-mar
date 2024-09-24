@@ -7,36 +7,29 @@ export default function About() {
   return (
     <div className='about-page'>
       <Container>
-        <Row>
+        <Row  className='about-row'>
           <Col md={6} className='about-right'>
               <h1 className='about-title centrado'>SUMAR Mantenimientos</h1><hr/>
               <h6 className='about-txt-principal centrado'>
-                Mi nombre es Leonardo, más conocido como Leo. <br/>
-                Soy una persona común la cual la vida le hizo ser grande 
-                y responsable de muy chico, termine mis estudios y sigo 
-                perfeccionándome para dar lo mejor de mi junto a mi equipo de trabajo.
+                Brindamos soluciones de calidad y a medida especializadas a cada caso en
+                particular. <br/>
+                Damos un servicio personalizado, con asesoramiento de nuestros
+                mejores profesionales en distintas áreas:
               </h6>
                 <Container>
                   <Row className='about-box'>
                     <Col xs={12} className='about-txt2'>
-                      <p> → Maestro mayor de obras </p>
+                      <p> → Construcción, infraestructura y mantenimiento </p>
                     </Col>
                     <Col xs={12} className='about-txt2'>
-                      <p> → Técnico en colocación de aires acondicionados </p>
+                      <p> → Servicio completo de aires acondicionados </p>
                     </Col>
                     <Col xs={12} className='about-txt2'>
-                      <p> → Corredor inmobiliario </p>
-                    </Col>
-                    <Col xs={12} className='about-txt2'>
-                      <p> → Técnico de acceso y rescate vertical (nv. intermedio) </p>
+                      <p> → Asesoramientos administrativos varios </p>
                     </Col>
                   </Row>
                 </Container>
-              <h2 className='about-subtitle centrado'>Trabajo, experiencia y valores</h2>
               <h6 className='about-txt centrado'>
-                Junto con mi equipo tenemos pasión por lo que hacemos, el trato 
-                constante con diferentes tipos de personalidades nos permite llevar una relación 
-                duradera en este rubro. <br/>
                 A diario nacen nuevas dificultados e inconvenientes 
                 pero la experiencia y la capacidad de resolverlos nos permiten avanzar 
                 un paso mas. 

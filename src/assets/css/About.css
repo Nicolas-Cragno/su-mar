@@ -1,18 +1,29 @@
 .about-page{
     width: 100%;
     padding-top: 10vh;
-
+    background-color: #eaecee ;
+    height: 100vh;
 }
 
-/*
-.about-left{
-    
+.about-row{
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-right: none;
+    border-width: 0.5px;
+    border-color: #b3b6b7 ;
+    border-radius: 3rem;
+    overflow: hidden;
+    height: 85vh;
 }
-*/
+.about-img{
+    border-top-right-radius: 10%;   
+    border-bottom-right-radius: 10%;
+}
 
 .about-img{
     object-fit: cover;
-    width: 100%;
+    width: 100vh;
     height: 85vh;
 }
 
@@ -20,6 +31,7 @@
     display: inline-block;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .centrado{
