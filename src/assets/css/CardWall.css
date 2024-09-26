@@ -1,0 +1,24 @@
+.card-wall{
+    width: 40vh;
+    height: 100%;
+}
+
+.card-wall-col{
+    display: grid;
+    place-items: center;
+}
+
+.card-wall-img{
+    width: 100%;
+    
+}
+
+.card-wall-title{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.card-wall-txt{
+    margin-bottom: -1vh;
+    color: grey;
+}

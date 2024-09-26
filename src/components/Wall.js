@@ -1,6 +1,12 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import '../assets/css/Wall.css';
+import CardWall from '../compounds/CardWall';
+import GarantiaLogo from '../assets/images/ConfianzaLogo.png';
+import ProfesionalLogo from '../assets/images/ProfesionalLogo.png';
+import ExperienciaLogo from '../assets/images/ExperienciaLogo.png';
+import HoraLogo from '../assets/images/HoraLogo.png';
+
 
 export default function Wall() {
   return (
@@ -8,15 +14,36 @@ export default function Wall() {
         <Container className='wall'>
             <Row >
                 <Col>
-                    <h1 className='wall-box-txt'>+3</h1>
-                    <h6 className='wall-box-txt'>años de experiencia</h6>
+                    <CardWall
+                    img={GarantiaLogo}
+                    title='Garantizado'
+                    txt='Resultado'
+                    >
+                    </CardWall>
                 </Col>
                 <Col>
-                    <h1 className='wall-box-txt'>150+</h1>
-                    <h6 className='wall-box-txt'>proyectos realizados</h6>
+                    <CardWall
+                    img={ProfesionalLogo}
+                    title='Profesionales'
+                    txt='Los mejores'
+                    >
+                    </CardWall>
                 </Col>
                 <Col>
-                    <h3 className='wall-box-txt'>SUMAR MANTENIMIENTOS</h3>
+                    <CardWall
+                    img={ExperienciaLogo}
+                    title='Experiencia'
+                    txt='+3 años de'
+                    >
+                    </CardWall>
+                </Col>
+                <Col>
+                    <CardWall
+                    img={HoraLogo}
+                    title='Horarios'
+                    txt='Respetamos tus'
+                    >
+                    </CardWall>
                 </Col>
             </Row>
         </Container>

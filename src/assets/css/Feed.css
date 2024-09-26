@@ -8,6 +8,14 @@
     transition-duration: 1.5s; /* duración de la aparición del Wall.js*/
 }
 
+/*
 .feed:hover{
-    height: 75vh; /* achicamiento para aparición del Wall.js*/
+    height: 75vh;  achicamiento para aparición del Wall.js
+}
+*/
+.feed-content{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

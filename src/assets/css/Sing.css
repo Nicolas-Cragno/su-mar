@@ -1,0 +1,39 @@
+/*    
+.sing{
+}
+*/
+
+.sing-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sing-logo{
+    width: 15rem;
+}
+
+.sing-txt{
+    display: flex;
+    justify-content: center;
+}
+
+.sing-txt-logo{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right : 2vh;
+}
+
+.sing-btn{
+    border-radius: 1rem;
+    border-color: #982326;
+    color: #982326;
+    background-color: transparent;
+    margin: 3vh;
+}
+
+.sing-btn:hover{
+    color: black;
+    border-color: black;
+    background-color: #eaecee;
+}
