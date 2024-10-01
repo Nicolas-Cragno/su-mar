@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/css/About.css';
 import { Container, Row, Col } from 'react-bootstrap';
-import Img from '../assets/images/maxi-trabajando.png';
+import Img from '../assets/images/ejemplo3.jpeg';
 
 export default function About() {
   return (
@@ -36,7 +36,7 @@ export default function About() {
               </h6>
           </Col>
           <Col md={6} className='about-left'>
-            <img src={Img} className='about-img'></img>
+            <img src={Img} className='about-img' alt=''></img>
           </Col>
         </Row>
       </Container>

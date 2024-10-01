@@ -3,6 +3,7 @@ import '../assets/css/Home.css';
 import Feed from '../components/Feed';
 import Wall from '../components/Wall';
 import Jobs from '../components/Jobs';
+import About from './About.js';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         */}
       <Feed></Feed>
       <Wall></Wall>
+      <About></About>
       <Jobs></Jobs>
     </div>
   )

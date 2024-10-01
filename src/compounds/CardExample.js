@@ -9,7 +9,7 @@ export default function CardExample(props) {
         <Container>
             <Row>
                 <Col xs={12} className='cardexample-box1'>
-                    <img src={img} className='cardexample-img'></img>
+                    <img src={img} className='cardexample-img' alt=''></img>
                 </Col>
                 <Col xs={12} className='cardexample-box2'>
                     <h5 className='cardexample-txt'>{txt}</h5>

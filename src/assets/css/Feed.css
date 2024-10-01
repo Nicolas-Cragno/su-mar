@@ -1,11 +1,15 @@
 .feed{
-    background-image: url('../images/background-example.png');
+    background-image: url('../images/Background2.png');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 100vh;
     z-index: 89;
     transition-duration: 1.5s; /* duración de la aparición del Wall.js*/
+}
+
+.feed:after {
+    background-image: url('../images/ejemplo2.jpeg');
 }
 
 /*
